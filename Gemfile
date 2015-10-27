@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-
+gem 'figaro', '>= 1.0.0'
+gem "geocoder"
 gem 'will_paginate'
 gem 'bootstrap-sass', '~> 3.3.4'
 gem 'simple_form'

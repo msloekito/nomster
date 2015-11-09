@@ -18,6 +18,15 @@
         </blockquote>
     </div>
     <% end %>
+    <% if place.photos.present? %>
+      <div class="col-xs-12">
+
+          <% if place.photos.last.present? %>
+            <b><%= image_tag place.photos.last.picture, :class => "img-responsive center-block" %></b> -
+          <% end %>
+          <small><%= place.photos.last.caption %></small>
+    </div>
+    <% end %>
     </div>
 <% end %>
 

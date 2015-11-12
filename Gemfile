@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'fog'
 gem 'carrierwave'
 gem 'figaro', '>= 1.0.0'
 gem "geocoder"

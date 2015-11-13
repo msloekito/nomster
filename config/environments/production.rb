@@ -11,7 +11,7 @@ config.action_mailer.delivery_method = :smtp
     :authentication => :plain,
   }
  
-end
+  config.action_mailer.default_url_options = { :host => 'nomster-lokimart.herokuapp.com' }
   # Code is not reloaded between requests.
   config.cache_classes = true
 

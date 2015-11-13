@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'mailgun_rails'
 gem 'fog'
 gem 'carrierwave'
 gem 'figaro', '>= 1.0.0'
